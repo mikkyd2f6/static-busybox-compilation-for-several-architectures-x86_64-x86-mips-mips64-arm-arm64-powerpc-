@@ -1,0 +1,15 @@
+# Build inputs and outputs — reproduce with ./build.sh, don't commit
+src/
+build-*/
+install/
+dist/
+
+# Downloaded tarballs (in case of out-of-place downloads)
+*.tar.bz2
+*.tar.xz
+*.tar.gz
+
+# Editor / OS noise
+*.swp
+*~
+.DS_Store
